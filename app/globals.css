@@ -24,3 +24,10 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+
+.heroStyle {
+
+  font-size: 40px;
+  font-weight: 600;
+}
