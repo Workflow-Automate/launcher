@@ -14,7 +14,7 @@ const PathArray = [
     {
         pathName: "STAFF LOAN",
         pathDesc: "You can easily apply for a staff loan from here without needing manual forms or paperwork.",
-        pathLink: "https://forms.office.com/r/q3TGp5XsDS",
+        pathLink: "https://fincaint.sharepoint.com/:l:/s/CROAgent/FEFCsrJV7eFJh0ftiI4Wv44BrfR5dHVZcj4QVqg9mp9oqQ?nav=NDU3N2FkMjctYjg1ZS00NWE5LWE2ZjctM2QyODhjMjQ3NDVm",
         pathImage: "./staffloan.png"
     }
 ]
