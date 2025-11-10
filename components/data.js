@@ -10,6 +10,12 @@ const PathArray = [
         pathDesc: "You can log into your email with ease from here. Useful when you cannot remember the email link",
         pathLink: "https://outlook.office.com",
         pathImage: "./email_image.png"
+    },
+    {
+        pathName: "STAFF LOAN",
+        pathDesc: "You can easily apply for a staff loan from here without needing manual forms or paperwork.",
+        pathLink: "https://forms.office.com/r/q3TGp5XsDS",
+        pathImage: "./staffloan.png"
     }
 ]
 
