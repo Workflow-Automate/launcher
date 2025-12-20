@@ -3,7 +3,7 @@ import "./globals.css";
 import { Inter } from 'next/font/google';
 import Card from "../components/ui/card";
 import { Grid, GridItem } from "@chakra-ui/react"
-import PathArray from "../components/data"
+import { PathArray, PathArrayLive } from "../components/data"
 
 const inter = Inter({
   subsets: ['latin'],
@@ -11,6 +11,9 @@ const inter = Inter({
 });
 
 export default function Home() {
+  const applicationType = process.env.NEXT_PUBLIC_APPLICATION_TYPE;
+  const paths =
+    applicationType === "LIVE" ? PathArrayLive : PathArray;
   return (
     <>
       <Center>
@@ -33,7 +36,7 @@ export default function Home() {
 
           <Grid templateColumns={['repeat(1, 1fr)', 'repeat(2, 1fr)', 'repeat(3, 1fr)']} gap="6">
 
-            {PathArray.map((item, index) => (
+            {paths.map((item, index) => (
               <Card key={index} data={item} />
             ))}
           </Grid>
